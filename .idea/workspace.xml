@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1ffad5b-33f2-4a80-9938-c0e041ad49d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/16b9fba5-1f89-4667-ba36-fdf67822860e.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDesign.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaDesign/META-INF/JavaDesign.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/design/AddDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/design/AddressBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/design/AdminDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/design/AlterDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/design/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/design/CharTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/design/GUITools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/design/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/design/SearchTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/design/AddDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/design/AddDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/design/AlterDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/design/AlterDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/design/CharTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/design/CharTool.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,12 +52,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/design/AdminDialog.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/design/GUITools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="224">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/design/AddressBook.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/design/CharTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+            <state relative-caret-position="160">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -126,13 +111,13 @@
         <option value="$PROJECT_DIR$/src/cn/design/JDBCUtils.java" />
         <option value="$PROJECT_DIR$/src/design/test1/ada.java" />
         <option value="$PROJECT_DIR$/src/cn/design/alterDialog.java" />
-        <option value="$PROJECT_DIR$/src/cn/design/CharTool.java" />
         <option value="$PROJECT_DIR$/src/cn/design/Search.java" />
         <option value="$PROJECT_DIR$/src/cn/design/App.java" />
-        <option value="$PROJECT_DIR$/src/cn/design/AddDialog.java" />
-        <option value="$PROJECT_DIR$/src/cn/design/AlterDialog.java" />
         <option value="$PROJECT_DIR$/src/cn/design/AddressBook.java" />
         <option value="$PROJECT_DIR$/src/cn/design/AdminDialog.java" />
+        <option value="$PROJECT_DIR$/src/cn/design/AddDialog.java" />
+        <option value="$PROJECT_DIR$/src/cn/design/AlterDialog.java" />
+        <option value="$PROJECT_DIR$/src/cn/design/CharTool.java" />
       </list>
     </option>
   </component>
@@ -148,11 +133,15 @@
     <option name="width" value="1674" />
     <option name="height" value="855" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,7 +165,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,7 +172,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="205" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553779519294" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553840649731" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -320,12 +308,14 @@
       <workItem from="1553599967905" duration="196000" />
       <workItem from="1553757926072" duration="576000" />
       <workItem from="1553779178117" duration="359000" />
-      <workItem from="1553779864490" duration="131000" />
+      <workItem from="1553779864490" duration="271000" />
+      <workItem from="1553837484470" duration="3435000" />
+      <workItem from="1553841951454" duration="89000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60421000" />
+    <option name="totallyTimeSpent" value="64085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,7 +330,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17461601" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17946646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -349,7 +339,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3492908" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19005328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25796178" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -473,16 +463,6 @@
     <entry file="jar://$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL Connector/J/5.1.46/mysql-connector-java-5.1.46.jar!/com/mysql/jdbc/Util.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/design/GUITools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://16b9fba5-1f89-4667-ba36-fdf67822860e/schema/address_book/table/address_book">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -505,28 +485,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/design/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/design/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="192">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/design/AlterDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/design/SearchTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="156" column="51" lean-forward="true" selection-start-line="156" selection-start-column="51" selection-end-line="156" selection-end-column="51" />
+        <state relative-caret-position="144">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7186#7187#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/design/AddDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        <state relative-caret-position="267">
+          <caret line="119" column="70" lean-forward="true" selection-start-line="119" selection-start-column="70" selection-end-line="119" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/design/AlterDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3008">
+          <caret line="188" column="5" lean-forward="true" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7375#7376#0" expanded="true" />
+            <element signature="e#7473#7474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/design/AdminDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="126" column="20" lean-forward="true" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -535,46 +543,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/design/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="64">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/design/GUITools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/design/CharTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/design/SearchTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/design/AdminDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/design/AddressBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        <state relative-caret-position="160">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
         </state>
       </provider>
     </entry>

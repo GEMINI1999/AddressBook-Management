@@ -8,13 +8,18 @@ public class CharTool {
         return pattern.matcher(str).matches();
     }
 
+    public static boolean isABC(String str){//判断字符串中是否包含字母
+        Pattern pattern = Pattern.compile(".*[a-zA-z].*");
+        return pattern.matcher(str).matches();
+    }
+
     public static boolean isEmpty(String str) {//判断空格
         Pattern pattern = Pattern.compile(" *");
         return pattern.matcher(str).matches();
     }
 
     public static boolean isLetterDigitOrChinese(String str) {
-        String regex = "^[a-z0-9A-Z\u4e00-\u9fa5]+$";//其他需要，直接修改正则表达式就好
+        String regex = "^[a-z0-9A-Z\u4e00-\u9fa5]+$";
         return str.matches(regex);
     }
 }

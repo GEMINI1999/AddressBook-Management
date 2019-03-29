@@ -107,13 +107,17 @@ public class AddDialog extends JDialog {
             conn = JDBCUtils.getConnection();
             stmt = conn.createStatement();
             if (!CharTool.isEmpty(addressBookItem.getName())) {
-                String sql = "INSERT INTO address_book(name, phone_number, address, email_address, remarks)"
-                        + "VALUES('" + addressBookItem.getName() + "','" + addressBookItem.getPhoneNumber()
-                        + "','" + addressBookItem.getAddress() + "','" + addressBookItem.getEmailAddress()
-                        + "','" + addressBookItem.getRemarks() + "')";
-                sign = stmt.executeUpdate(sql);
-                if (sign > 0) {
-                    JOptionPane.showMessageDialog(this, "数据添加成功");
+                if(!CharTool.isABC(addressBookItem.getPhoneNumber())) {
+                    String sql = "INSERT INTO address_book(name, phone_number, address, email_address, remarks)"
+                            + "VALUES('" + addressBookItem.getName() + "','" + addressBookItem.getPhoneNumber()
+                            + "','" + addressBookItem.getAddress() + "','" + addressBookItem.getEmailAddress()
+                            + "','" + addressBookItem.getRemarks() + "')";
+                    sign = stmt.executeUpdate(sql);
+                    if (sign > 0) {
+                        JOptionPane.showMessageDialog(this, "数据添加成功");
+                    }
+                }else{
+                    JOptionPane.showMessageDialog(this, "电话字段不能出现字母");
                 }
             } else {
                 JOptionPane.showMessageDialog(this, "姓名字段不能为空或空格");

@@ -150,13 +150,17 @@ public class AlterDialog extends JDialog {
             nameData = AlterData.getName();
             if (!CharTool.isEmpty(nameData)) {
                 if (!CharTool.isNumeric(addressData)) {
-                    String sql = "update address_book set name = '" + AlterData.getName() + "', phone_number = '"
-                            + AlterData.getPhoneNumber() + "', address = '" + AlterData.getAddress() + "', email_address = '"
-                            + AlterData.getEmailAddress() + "', remarks = '" + AlterData.getRemarks() + "'"
-                            + "where name = '" + addressData + "'";//注意字符串要用单引号
-                    sign = stmt.executeUpdate(sql);
-                    if (sign > 0) {
-                        JOptionPane.showMessageDialog(this, "数据修改成功");
+                    if(!CharTool.isABC(AlterData.getPhoneNumber())){
+                        String sql = "update address_book set name = '" + AlterData.getName() + "', phone_number = '"
+                                + AlterData.getPhoneNumber() + "', address = '" + AlterData.getAddress() + "', email_address = '"
+                                + AlterData.getEmailAddress() + "', remarks = '" + AlterData.getRemarks() + "'"
+                                + "where name = '" + addressData + "'";//注意字符串要用单引号
+                        sign = stmt.executeUpdate(sql);
+                        if (sign > 0) {
+                            JOptionPane.showMessageDialog(this, "数据修改成功");
+                        }
+                    }else{
+                        isABCDialog();
                     }
                 }else{
                     String sql = "update address_book set name = '" + AlterData.getName() + "', phone_number = '"
@@ -187,4 +191,10 @@ public class AlterDialog extends JDialog {
     public void isEmptyDialog() {
         JOptionPane.showMessageDialog(this, "该字段不能为空或空格");
     }
+
+    public void isABCDialog() {
+        JOptionPane.showMessageDialog(this, "电话字段不能包含字母");
+    }
+
+
 }
